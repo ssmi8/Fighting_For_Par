@@ -12,3 +12,15 @@ body {
 
 
 /* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
