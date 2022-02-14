@@ -7,33 +7,6 @@ body {
 }
 /* Header */
 
-h1, h2 {
-    font-family:source-sans-pro, sans-serif;
-    font-weight: 200;
-    text-transform: uppercase;
-    color: darkslategray;
-}
-
-
-#main-image {
-    height: 800px;
-    width: 100%;
-    background: url('../images/main-image.jpg') no-repeat center center;
-    background-size: cover;
-   
- }
-
-h1 {
-    text-align: center;
-    letter-spacing: 4px;
-    font-weight: 700;
-    font-size: 80px;
-}
-
-a:link {
-    text-decoration: none;
-}
-
 
 /* Why Us? */
 
