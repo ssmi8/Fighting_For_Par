@@ -6,7 +6,33 @@ body {
     color: rgb(255, 30, 161);
 }
 /* Header */
+header {
+    height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #3a3a3a;
+    color: white;  
+}
 
+#nav {
+    float: right;
+    margin: 10px 40px;
+    letter-spacing: 3px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    
+#nav a:hover {
+    border-bottom: 1px solid white;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
 
 /* Why Us? */
 
@@ -14,7 +40,7 @@ body {
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: #3a3a3a;
 }
 
@@ -26,4 +52,10 @@ footer {
 
 .social-media > li {
     display: inline;
+}
+
+.social-media i {
+    font-size: 130%;
+    margin: 40px 30px;
+    color: white;
 }
