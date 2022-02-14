@@ -15,11 +15,13 @@ body {
 
 footer {
     height: 150px;
+    background-color: #3a3a3a;
 }
 
 .social-media {
     text-align: center;
-    color: black;
+    color: white;
+
 }
 
 .social-media > li {
